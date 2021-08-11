@@ -16,6 +16,15 @@ body{
   height: 500px;
   margin-left: 20px;
 }
+.card-outside{
+  height: 150px;
+  width: 120px;
+  background: white;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
 
 .card-inside{
   position: absolute;
