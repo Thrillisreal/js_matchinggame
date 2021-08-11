@@ -4,24 +4,17 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color:lightskyblue;
+  background-image: url('background\ Yu-gi-yo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: Anton;
+  width: 100%;
+  height: 100%;
 }
 
 .board{
   height: 500px;
   margin-left: 20px;
-}
-
-.card-outside{
-  height: 150px;
-  width: 120px;
-  background: white;
-  float: left;
-  margin-left: 40px;
-  margin-top: 20px;
-  border-radius: 10px;
-
 }
 
 .card-inside{
@@ -39,7 +32,7 @@ body{
 
 img{
   height: 150px;
-  width: 180px;
+  width: 140px;
 }
 
 #message{
