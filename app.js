@@ -1,4 +1,5 @@
 let cards = document.querySelectorAll('.card-inside')
+let button = document.getElementById('')
 // let card2 = 
 let turn = 1
 
@@ -12,7 +13,7 @@ cards.forEach(card => {
       // A function that flips the card//
       currentCards.push(e.target)
       turn = 2
-    }else{
+    }else {
       // Pushes card into the array //
       currentCards.push(e.target)
       // Checks to see if theres a match //
@@ -32,18 +33,18 @@ cards.forEach(card => {
 })
 
 
-// function start(){
+// function stop(){
   
 // }
 
 
 
 
-function showCard(){
- console.log('The card is clicked')
-} 
-console.log(showCard())
-let clickedCard = document.querySelectorAll('.card-inside').addEventListener('click', showCard())
+// function showCard(){
+//  console.log('The card is clicked')
+// } 
+// console.log(showCard())
+// let clickedCard = document.querySelectorAll('.card-inside').addEventListener('click', showCard())
 //Check if innerText works to append it to the DOM//
 
 
