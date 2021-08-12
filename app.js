@@ -1,21 +1,40 @@
 let cards = document.querySelectorAll('.card-inside')
 let button = document.getElementById('')
+
 // let card2 = 
 let turn = 1
 
 
 let currentCards = []
 
+function flip(card){
+ //get source of the first card//
+card.lastElementChild.lastElementChild.src=card.firstElementChild.firstElementChild.src
+ console.log(card.firstElementChild.firstElementChild);
+}
 
+function flipBack(card){
+  //set image source back to the back of the card
+  card.src='back.png'
+//e.target when calling//
+}
 cards.forEach(card => {
   card.addEventListener('click', function(e){
     if(turn === 1){
       // A function that flips the card//
+      flip(card)
       currentCards.push(e.target)
+      
       turn = 2
     }else {
+      flip(card)
       // Pushes card into the array //
       currentCards.push(e.target)
+  //Check if sources are the same, and if they are then keep then back with conditional
+      
+  
+  
+  // flipBack(e.target)
       // Checks to see if theres a match //
       
       // Empty of cards from the array we created //
