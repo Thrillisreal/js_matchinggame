@@ -29,8 +29,9 @@ cards.forEach((card) => {
     if (turn === 1) {
       // A function that flips the card//
       flip(card)
+      //pushes card to array//
       currentCards.push(e.target)
-
+     //turn 2 then flips and pushes in array//
       turn = 2
     } else {
       flip(card)
@@ -41,15 +42,17 @@ cards.forEach((card) => {
         // check if sources match//
         console.log('match')
         numbMatchedCards++
+        //empties out the arry for the next set//
         currentCards = []
+        //then it checks for the win//
         checkWin()
       } else {
         // flips them back //
-        console.log('no match')
-        console.log(currentCards)
+        //pauses so that the player can see what's being flipped because it turns so fast
         setTimeout(function () {
           flipBack(currentCards[0])
           flipBack(currentCards[1])
+          //empties out the array for the next turn
           currentCards = []
         }, 1500)
       }

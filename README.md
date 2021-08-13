@@ -17,6 +17,8 @@ Anime Matching Game: Micah Stewart
    
 6. When the player clicks a card. The card will flip over and if it matches with another, the card will disappear and add a point to the player.
    
-7. A restart button should allow the player reset the game board, the timer, and the star rating.
-   
-8. A congratulations message should appear when the player wins while showing a button to play again 
+7. A congratulations message should appear when the player wins while showing a button to play again 
+
+# cite: 
+James Bubb
+https://dev.to/codebubb/how-to-shuffle-an-array-in-javascript-2ikj
