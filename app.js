@@ -84,5 +84,5 @@ showNewCards()
 
 function checkWin(){
   if(numbMatchedCards === 8)
-  message.innerHTML = 'You Win This Time...'
+  message.innerHTML = 'If There Is Will, Then There Is Hope!'
 }
