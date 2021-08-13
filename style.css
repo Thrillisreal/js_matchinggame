@@ -79,3 +79,7 @@ img{
 #restart:hover{
   background-color: purple;
 }
+
+.welcome{
+  height: 100vh;
+}
